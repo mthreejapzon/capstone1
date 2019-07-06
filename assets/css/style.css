@@ -435,7 +435,7 @@ img {
 	}
 }
 
-@media screen and (max-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
 	#navbar-brand {
 		left: 0;
 		margin: 0;
@@ -487,16 +487,12 @@ img {
 		display: inline-block;
 	}
 
-	.merch-card-container, .news-card-container {
-		padding-right: 0;
-	}
-
 	.merch-img {
 		height: auto;
 	}
 }
 
-@media screen and (max-width: 769px) and (min-width: 992px) {
+@media screen and (min-width: 769px) {
 	.logo-image-sm {
 		display: none;
 	}
