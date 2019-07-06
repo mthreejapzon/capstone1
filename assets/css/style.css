@@ -94,7 +94,7 @@ img {
 
 /*end landing page*/
 
-/*start navbara*/
+/*start navbar*/
 
 
 
@@ -267,8 +267,8 @@ img {
 	padding-right: 0;
 }
 
-.merch-image {
-	height: 270px;
+.merch-img {
+	height: 280px;
 }
 
 .merch-card {
@@ -324,7 +324,7 @@ img {
 	margin-top: 20px;
 }
 
-.music-details-container iframe {
+.music-details-container iframe, .video-iframe-container iframe {
    width: 100%;
 }
 
@@ -369,7 +369,7 @@ img {
 
 /*mobile Styles*/
 
-@media only screen (max-width:400px) {
+@media screen and (max-width: 576px) {
 	#navbar-brand {
 		left: 0;
 		margin: 0;
@@ -425,13 +425,17 @@ img {
 	.logo-image-sm {
 		display: inline-block;
 	}
+
+	.merch-card-container, .news-card-container {
+		padding-right: 0;
+	}
+
+	.merch-img {
+		height: auto;
+	}
 }
 
-/*tablet style*/
-
-
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
+@media screen and (max-width: 577px) and (max-width: 768px) {
 	#navbar-brand {
 		left: 0;
 		margin: 0;
@@ -482,13 +486,17 @@ img {
 	.logo-image-sm {
 		display: inline-block;
 	}
+
+	.merch-card-container, .news-card-container {
+		padding-right: 0;
+	}
+
+	.merch-img {
+		height: auto;
+	}
 }
 
-
-/*large*/
-
-
-@media only screen and (min-width: 961px){
+@media screen and (max-width: 769px) and (min-width: 992px) {
 	.logo-image-sm {
 		display: none;
 	}
